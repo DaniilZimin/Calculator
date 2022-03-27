@@ -2,8 +2,8 @@ package pro.sky.calculator.service;
 
 public interface CalculatorService {
     String greeting();
-    String addition(int a, int b);
-    String subtraction(int a, int b);
-    String multiplication(int a, int b);
-    String division(int a, int b);
+    int addition(int a, int b);
+    int subtraction(int a, int b);
+    int multiplication(int a, int b);
+    int division(int a, int b);
 }
